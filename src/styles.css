@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.heading {
+  text-align: center;
+}
+
+.meaning {
+  margin: 2rem;
+  font-weight: bolder;
+  color: yellowgreen;
+}
+
+.emojisWeKnow {
+  font-weight: bolder;
+  font-size: large;
+  color: blue;
+}
+
+.emoji {
+  font-size: xx-large;
+}
